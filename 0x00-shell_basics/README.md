@@ -7,3 +7,4 @@ shell basics
 6-firstdirectory file create craate directory
 7-movethefile file move file to dir
 8-firtremove file remove file from dir
+9-firstdirdeletion file  delete dir from dir
