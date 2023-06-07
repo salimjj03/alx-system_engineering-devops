@@ -5,3 +5,4 @@ shell basics
 4-listmorefile file list all the file including hidding files
 5-listfilesdigitonly file display digite files
 6-firstdirectory file create craate directory
+7-movethefile file move file to dir
