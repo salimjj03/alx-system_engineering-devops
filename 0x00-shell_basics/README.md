@@ -11,3 +11,4 @@ shell basics
 10-back file change dir to the previouse one
 11-lists file list three dir
 12-file_type file print the type of a file
+13-symbolic_link file creat alink
