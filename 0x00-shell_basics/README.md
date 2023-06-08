@@ -9,3 +9,4 @@ shell basics
 8-firtremove file remove file from dir
 9-firstdirdeletion file  delete dir from dir
 10-back file change dir to the previouse one
+11-lists file list three dir
