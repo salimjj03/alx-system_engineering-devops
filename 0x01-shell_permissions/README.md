@@ -8,3 +8,4 @@
 7-everybody file add permission to every body.
 8-james_bond file give access to anly other users
 9-John_Doe file change the mode
+10_merror_permission file referance a file
