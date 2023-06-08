@@ -5,3 +5,4 @@
 4-empty file create empty file
 5-execute file create an execute permission.
 6-muliple_permission file add permissions to a file.
+7-everybody file add permission to every body.
