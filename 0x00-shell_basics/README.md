@@ -8,3 +8,4 @@ shell basics
 7-movethefile file move file to dir
 8-firtremove file remove file from dir
 9-firstdirdeletion file  delete dir from dir
+10-back file change dir to the previouse one
