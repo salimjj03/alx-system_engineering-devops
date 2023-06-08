@@ -10,3 +10,4 @@ shell basics
 9-firstdirdeletion file  delete dir from dir
 10-back file change dir to the previouse one
 11-lists file list three dir
+12-file_type file print the type of a file
