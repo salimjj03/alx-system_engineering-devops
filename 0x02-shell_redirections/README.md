@@ -7,3 +7,4 @@ file 5 display first 10 lines
 filw 6 display third line
 file 7 create dir
 file 8 copy content ls -al to a file
+file 9 duplicate a line
