@@ -8,3 +8,4 @@ filw 6 display third line
 file 7 create dir
 file 8 copy content ls -al to a file
 file 9 duplicate a line
+file 10 delet all js files
