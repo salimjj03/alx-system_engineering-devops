@@ -6,3 +6,4 @@ file 4 display last 10 lines of passwd file
 file 5 display first 10 lines
 filw 6 display third line
 file 7 create dir
+file 8 copy content ls -al to a file
