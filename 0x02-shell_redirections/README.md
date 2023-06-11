@@ -21,3 +21,4 @@ file 19 replace two characters with another char
 file 20 remove C and c char
 file 21 reverse an input
 file 22 display list user and dir
+file 100 display empty files
