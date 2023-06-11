@@ -19,3 +19,4 @@ file 17 display all the file execpt the bin files
 file 18 search the line that begine with alphabet
 file 19 replace two characters with another char
 file 20 remove C and c char
+file 21 reverse an input
