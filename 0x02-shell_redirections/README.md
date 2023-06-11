@@ -11,3 +11,4 @@ file 9 duplicate a line
 file 10 delet all js files
 file 11 count the dir
 file 12 display the 10 newest files
+file 13 sort and remove duplicate
