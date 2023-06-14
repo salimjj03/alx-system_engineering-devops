@@ -6,3 +6,4 @@ file 5 print all types of ver
 file 6 create new ver
 file 7 create global ver
 file 8 add numbers withe the values of ver
+file 9 add two ver
