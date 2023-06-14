@@ -11,3 +11,4 @@ file 10 find the power of two ver
 file 11 convert vinary to decimal
 file 12 print combinations of alpha
 file 13 print floting num
+file 100 convert base 10 to base 16
