@@ -9,3 +9,4 @@ file 8 add numbers withe the values of ver
 file 9 add two ver
 file 10 find the power of two ver
 file 11 convert vinary to decimal
+file 12 print combinations of alpha
