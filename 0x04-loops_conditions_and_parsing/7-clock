@@ -9,7 +9,7 @@ do
 
 	while [ "$mint" -le 59 ];
 	do
-		echo "$mint"
+		echo $mint
 		(( mint++ ))
 	done
 
