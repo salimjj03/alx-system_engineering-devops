@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script test your luck
+hour=0
+while [ "$hour" -le 11 ];
+do
+	echo "Hour: $hour"
+
+	mint=1
+
+	while [ "$mint" -le 59 ];
+	do
+		echo "$mint"
+		(( mint++ ))
+	done
+
+	(( hour++ ))
+done
