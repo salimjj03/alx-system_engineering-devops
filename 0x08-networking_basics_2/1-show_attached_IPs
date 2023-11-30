@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This sicript edit host file
+hostname -I | tr " " "\n" | grep . | cat -e
