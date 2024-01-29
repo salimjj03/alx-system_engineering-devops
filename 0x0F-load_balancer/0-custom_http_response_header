@@ -3,6 +3,9 @@
 apt-get -y update
 apt-get -y install nginx
 
+mkdir -p /var/www/html
+echo "Ceci n'est pas une page" | tee /var/www/html/404.html
+
 echo "server {
 	listen 80;
 	listen [::]:80;
@@ -13,10 +16,16 @@ echo "server {
 
 	server_name _;	
 
-	location / {
-		try_files \$uri \$uri/ =404;
+	location /redirect_me{
+		return 301 http://salimjj03.tech/;
+	}
+
+	error_page 404 /404.html;
+	location /404 {
+		root /var/www/html;
+		internal;
 	}
 }" | tee /etc/nginx/sites-available/default
 echo "Hello World!" | tee /var/www/html/index.html
 
-service nginx reload
+service nginx restart
