@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#Bash script that configures a new Ubuntu machine
+apt-get -y update
+apt-get -y install nginx
+
+echo "server {
+	listen 80;
+	listen [::]:80;
+
+	add_header X-Served-By $(hostname);
+	root /var/www/html;
+	index index.html index.htm index.nginx-debian.html;
+
+	server_name _;	
+
+	location / {
+		try_files \$uri \$uri/ =404;
+	}
+}" | tee /etc/nginx/sites-available/default
+echo "Hello World!" | tee /var/www/html/index.html
+
+service nginx reload
