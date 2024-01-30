@@ -4,7 +4,7 @@ apt -y update
 apt -y install nginx
 
 echo "server {
-	listen *:80;
+	listen 0.0.0.0:80;
 	listen [::]:80;
 
 	root /var/www/html;
