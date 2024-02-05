@@ -6,8 +6,8 @@ frontend http
     mode http
 
 backend all
-        timeout connect 5000
-        timeout server 50000
-        server web-01 100.26.11.71
-        server web-02 54.237.217.229
-        mode http 
+    timeout connect 5000
+    timeout server 50000
+    server web-01 100.26.11.71:80 check
+    server web-02 54.237.217.229:80 check
+    mode http 
