@@ -1,0 +1,13 @@
+frontend http
+    bind *:80
+    bind *:443 ssl crt /etc/letsencrypt/live/www.salimjj03.tech/fullchain.pem
+    timeout client 50000
+    default_backend all
+    mode http
+
+backend all
+        timeout connect 5000
+        timeout server 50000
+        server web-01 100.26.11.71
+        server web-02 54.237.217.229
+        mode http 
