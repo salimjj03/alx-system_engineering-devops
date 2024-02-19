@@ -23,11 +23,11 @@ if __name__ == "__main__":
             params=query
             ) as result:
         ls = result.json()
-        name = result1.json()[0].get("name")
+        name = result1.json()[0].get("username")
         f_name = "{}.csv".format(sys.argv[1])
 
         with open(f_name, "w", newline='') as file:
             writer = csv.writer(file, quoting=csv.QUOTE_ALL)
             [writer.writerow(
-                [t.get("userId"), name, t.get("completed"), t.get("title")]
+                [sys.argv[1], name, t.get("completed"), t.get("title")]
                 ) for t in ls]
