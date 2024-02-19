@@ -31,4 +31,4 @@ if __name__ == "__main__":
             total
             ))
         for i in ls:
-            print("\t", i["title"])
+            print("\t {}".format(i.get("title")))
