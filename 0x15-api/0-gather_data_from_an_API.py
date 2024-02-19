@@ -21,14 +21,12 @@ if __name__ == "__main__":
             "https://jsonplaceholder.typicode.com/todos",
             params=query
             ) as result:
-        total = len(requests.get(
-            "https://jsonplaceholder.typicode.com/todos"
-            ).json())
         ls = result.json()
-        print("Employee {} is done with tasks({}/{})".format(
+        total = [t.get("title") for t in ls if t.get("completed") is True]
+        print("Employee {} is done with tasks({}/{}):".format(
             result1.json()[0].get("name"),
-            len(ls),
-            total
+            len(total),
+            len(ls)
             ))
         for i in ls:
             print("\t {}".format(i.get("title")))
