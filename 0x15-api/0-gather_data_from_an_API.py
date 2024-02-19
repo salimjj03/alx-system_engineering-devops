@@ -6,11 +6,11 @@ about his/her TODO list progress. """
 import requests
 import sys
 
-query1 = {"id": sys.argv[1]}
-query = {"userId": sys.argv[1]}
-
 
 if __name__ == "__main__":
+
+    query1 = {"id": sys.argv[1]}
+    query = {"userId": sys.argv[1]}
 
     with requests.get(
             "https://jsonplaceholder.typicode.com/users",
