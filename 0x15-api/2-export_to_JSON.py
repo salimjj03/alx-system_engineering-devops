@@ -28,7 +28,7 @@ if __name__ == "__main__":
         f_name = "{}.json".format(sys.argv[1])
 
         dic = {sys.argv[1]: ls}
-        for i in dic[sys.argv[1]]:
+        for i in dic.get(sys.argv[1]):
             del i["userId"]
             del i["id"]
             i["username"] = name
